@@ -15,18 +15,26 @@ Healthcare
 Financial
 General summaries
 Each agent uses specialized prompts for domain-specific text summarization.
+
+
 Streamlit-Based UI:
 
 User-friendly interface for uploading documents and viewing generated summaries.
 Dynamic configuration of summary length (min/max).
 Downloadable summaries for offline use.
+
+
 Advanced NLP Models:
+
 
 Leverages sshleifer/distilbart-cnn-12-6 for summarization.
 Uses sentence-transformers/all-MiniLM-L6-v2 for text embeddings in the RAG pipeline.
+
 Document Processing:
 
 Supports text extraction from PDFs (using pdfminer.six) and plain text files.
+
+
 📂 Repository Structure
 ├── app.py                      # Main Streamlit application code
 ├── requirements.txt            # Python dependencies
